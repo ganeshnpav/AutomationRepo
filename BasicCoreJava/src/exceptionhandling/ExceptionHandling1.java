@@ -21,9 +21,9 @@ public class ExceptionHandling1 {
 				arr[0]="Anand";
 				arr[1]="Ganesh";
 				//arr[2]="asdfgjj";
-		}catch(ArrayIndexOutofBoundsException e) 
+		}catch(ArrayIndexOutOfBoundsException e) 
 		{
-			System.out.println(e.getmessage());
+			System.out.println(e.getMessage());
 		}
 				
 				//Example 3
