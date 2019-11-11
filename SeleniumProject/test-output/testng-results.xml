@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21058" started-at="2019-11-10T07:10:40Z" finished-at="2019-11-10T07:11:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21058" started-at="2019-11-10T07:10:40Z" finished-at="2019-11-10T07:11:01Z">
+      <class name="BasicSelenium.NewToursBasicTestcases">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:BasicSelenium.NewToursBasicTestcases@a9e816]" name="launchApplication" is-config="true" duration-ms="5009" started-at="2019-11-09T23:10:40Z" finished-at="2019-11-09T23:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="registration()[pri:0, instance:BasicSelenium.NewToursBasicTestcases@a9e816]" name="registration" duration-ms="6297" started-at="2019-11-09T23:10:45Z" finished-at="2019-11-09T23:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method status="PASS" signature="login()[pri:0, instance:BasicSelenium.NewToursBasicTestcases@a9e816]" name="login" duration-ms="5005" started-at="2019-11-09T23:10:51Z" depends-on-methods="BasicSelenium.NewToursBasicTestcases.registration" finished-at="2019-11-09T23:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="selectOneWay()[pri:0, instance:BasicSelenium.NewToursBasicTestcases@a9e816]" name="selectOneWay" duration-ms="160" started-at="2019-11-09T23:10:56Z" depends-on-methods="BasicSelenium.NewToursBasicTestcases.login" finished-at="2019-11-09T23:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOneWay -->
+        <test-method status="PASS" signature="SelectPassangers()[pri:0, instance:BasicSelenium.NewToursBasicTestcases@a9e816]" name="SelectPassangers" duration-ms="301" started-at="2019-11-09T23:10:57Z" depends-on-methods="BasicSelenium.NewToursBasicTestcases.selectOneWay" finished-at="2019-11-09T23:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPassangers -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:BasicSelenium.NewToursBasicTestcases@a9e816]" name="logout" duration-ms="1975" started-at="2019-11-09T23:10:57Z" depends-on-methods="BasicSelenium.NewToursBasicTestcases.SelectPassangers" finished-at="2019-11-09T23:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="support()[pri:0, instance:BasicSelenium.NewToursBasicTestcases@a9e816]" name="support" duration-ms="1091" started-at="2019-11-09T23:10:59Z" depends-on-methods="BasicSelenium.NewToursBasicTestcases.logout" finished-at="2019-11-09T23:11:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method status="PASS" signature="CloseAplication()[pri:0, instance:BasicSelenium.NewToursBasicTestcases@a9e816]" name="CloseAplication" is-config="true" duration-ms="1175" started-at="2019-11-09T23:11:00Z" finished-at="2019-11-09T23:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAplication -->
+      </class> <!-- BasicSelenium.NewToursBasicTestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
